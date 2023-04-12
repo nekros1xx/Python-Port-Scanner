@@ -2,6 +2,8 @@
 Complete port scanner made in Python with several options.
 
 This program is used to scan ports on one or multiple IP addresses. It can take a single IP address as an argument or a file containing a range of IP addresses and a range of ports to scan. Additionally, an optional log file can be specified to store the scan results.
+
+With this program I was able to scan 1 port in 2.2 million different ip addresses (my whole country ip's) in 560-600 seconds, it's really fast because we are using threading.
 <br><br>
 
 **Help:**
